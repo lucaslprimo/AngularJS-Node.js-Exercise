@@ -1,6 +1,3 @@
-// var http = require("http");
-// var url = require("url");
-
 var names = ["Adam", "Abe", "Maria", "Rose", "Mario", "Luigi"];
 var surnames = ["Lincoln", "Franklin", "Jackson", "Miyazaki", "M'bebe"];
 var people = [];
@@ -34,31 +31,3 @@ app.get('/rest/people', function(req, res) {
 
 var server = app.listen(3000);
 console.log('Server started at port %s', server.address().port);
-  
-
-
-// console.log('HTTP server listening on port 80');
-
-// http.createServer(function (request, response) {
-
-//    var page = url.parse(request.url).pathname;
-
-//    if(page == '/rest/people')
-//     {
-//         //Rest API
-//         response.writeHead(200, {'Content-Type': 'application/javascript'});
-//         response.end(JSON.stringify(people));
-//     }else{
-//         //Application Page
-//         fs.readFile("../webapp/index.html", function(err, text){
-//             response.writeHead(200);
-//             response.end(text, "binary");
-//         }); 
-//         return;
-//     }
-
-   
-// }).listen(8081);
-
-// Console will print the message
-//console.log('Server running at http://127.0.0.1:8081/');
