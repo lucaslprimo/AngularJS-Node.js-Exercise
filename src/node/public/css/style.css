@@ -1,0 +1,64 @@
+.title{
+    color:white;
+}
+
+.personName{
+    font-weight: bold;
+}
+
+.personId{
+    color:gray;
+    margin-bottom: 2px;  
+}
+
+.personInfo
+{
+
+}
+
+
+/* 
+ Full HD
+*/
+@media screen and (min-width: 1920px) {
+    .personName{
+        font-size: 1.5em;
+    }
+    
+    .personId{
+        font-size: 1.5em; 
+    }
+    
+    .personInfo
+    {
+        font-size: 1.5em;
+    }
+}
+
+/* 
+  HD
+*/
+@media screen and (min-width: 1280px) {
+    .personName{
+        font-size: 1.2em;
+    }
+    
+    .personId{
+        font-size: 1.2em; 
+    }
+    
+    .personInfo
+    {
+        font-size: 1.2em;
+    }
+}
+
+/* 
+  Wide VGA
+*/
+@media screen and (min-width: 768px) {
+    
+}
+  
+  
+
