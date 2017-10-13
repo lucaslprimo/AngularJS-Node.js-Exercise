@@ -1,4 +1,4 @@
-# exercises
+# AngularJS Node.js Exercise
 
 First, Download and unzip the project on your computer.
 
